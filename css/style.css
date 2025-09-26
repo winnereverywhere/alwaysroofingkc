@@ -34,6 +34,10 @@ h1, h2, h3, h4 {
     color: var(--dark-gray);
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     color: var(--dark-gray);
@@ -262,11 +266,13 @@ section:nth-child(even) {
     text-align: center;
 }
 
-.banner h2 {
+.banner-text {
     color: var(--white);
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .banner .cta-primary {
