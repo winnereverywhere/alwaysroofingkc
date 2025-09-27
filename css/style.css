@@ -439,6 +439,10 @@ section:nth-child(even) {
     overflow: hidden;
 }
 
+.faq-item:first-of-type {
+    margin-top: 40px;
+}
+
 .faq-question {
     background-color: var(--main-color);
     color: var(--white);
